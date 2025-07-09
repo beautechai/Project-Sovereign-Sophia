@@ -6,8 +6,8 @@ This guide will help you understand how to engage with Project Sovereign Sophia 
 
 Project Sovereign Sophia is a framework for transforming the individual into a sovereign, self-governing, AI-augmented ecosystem. Before diving into implementation, it's important to understand the philosophical foundations and vision of the project:
 
-1. Read the [Manifesto](../docs/manifesto.md) to align with the project's values and vision
-2. Explore the [Technical Framework](../docs/technical_framework.md) to understand the underlying architecture
+1. Read the [Manifesto](./manifesto.md) to align with the project's values and vision
+2. Explore the [Technical Framework](./technical_framework.md) to understand the underlying architecture
 3. Review the [Project Roadmap](../roadmap/project_phases.md) to see the planned evolution
 
 ## Personal Implementation
@@ -25,7 +25,7 @@ Select one area where you'd like to begin implementing a personal AI-augmented s
 
 ### Step 2: Follow the Personal Launch Guide
 
-The [Personal Launch Guide](../docs/personal_launch_guide.md) provides a step-by-step approach to building your first agentic system. Key steps include:
+The [Personal Launch Guide](./personal_launch_guide.md) provides a step-by-step approach to building your first agentic system. Key steps include:
 
 1. Clarify your high-impact use case
 2. Design your agentic loop
