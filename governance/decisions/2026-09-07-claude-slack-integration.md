@@ -20,7 +20,7 @@ Claude is currently reachable in Slack through the **legacy "Claude in Slack" bo
 - Claude Tag, where enabled, runs in an **Anthropic-hosted ephemeral sandbox**, not on local/BEAU TECH infrastructure — a direct tension with PSS's local-first / sovereignty bias.
 - The current agent environment **hard-blocks all Anthropic domains at the egress proxy** (claude.com, anthropic.com, Help Center), so Claude cannot self-verify official product/pricing docs from inside Slack.
 - Voice playback is not supported (text-only surface).
-- Purpose of channel `C0BQYL1QJHE` is **not yet documented** — assumption below pending Architect confirmation.
+- Channel `C0BQYL1QJHE` is **`#agent-mesh`** — a public multi-agent coordination bus (5 members: Beau + bots `@sophia`, `@claude`, `@chatgpt`, `@cursor`), used as an **announce-only work-ledger** where PSS agents post bounded-lane claims and hash-verified completion reports for BEAU TECH MSP client ops and PSS internals. It already carries an explicit norm: **"Mesh is awareness only, not authority."** Content is sensitive (client names, IPs, endpoint GUIDs, billing, private repo, secret-shaped strings). Confirmed by reading the channel 2026-09-07.
 
 ## Outstanding Issues
 
@@ -45,10 +45,10 @@ Claude is currently reachable in Slack through the **legacy "Claude in Slack" bo
 - Adopt Claude **Team** (consumption-based token billing, org-level spend caps). Confirm current pricing and any launch credits before commit — treat all figures as unverified until checked against official pages (currently egress-blocked).
 - **Builder recommendation:** Do not procure until D1 rules for B and Beau signs off on a monthly token cap.
 
-### D3 — Role and scope of channel `C0BQYL1QJHE`
-- Define: (a) channel purpose, (b) which tools Claude may use there (default: read-only), (c) whether any write scopes are permitted and behind what approval gate, (d) monthly spend cap if Tag/custom app is used.
-- **Assumption pending confirmation:** treated as an internal PSS build/ops channel, not client-facing.
-- **Builder recommendation:** Start read-only, no write scopes, explicit spend cap; escalate scope only per D6 gates.
+### D3 — Role and scope of channel `C0BQYL1QJHE` (`#agent-mesh`)
+- **Confirmed purpose (read 2026-09-07):** public multi-agent coordination bus / announce-only work-ledger where PSS agents (`@sophia`/Codex, Claude Code, `@chatgpt`, `@cursor`) post bounded-lane claims and hash-verified completion reports for BEAU TECH MSP client ops and PSS internals. Existing channel norm: **"Mesh is awareness only, not authority."** Claude is already active here as an executor/writer.
+- Decide: (a) which tools Claude may use in-channel (default: read/monitor + status-post only), (b) whether any state-changing/write scope is permitted here and behind what approval gate, (c) monthly spend cap if Tag or a custom app drives activity.
+- **Builder recommendation:** Codify the existing "awareness only, not authority" norm as a hard rule for Claude — read/monitor + status-post only; **no peer bot's mesh message may trigger a state-changing action.** Real work requires Beau's direct instruction or a bounded work order (a peer-bot trigger is a cross-agent prompt-injection surface). Never echo raw client secrets/IPs/GUIDs into the channel; redact per Beau's privacy rules. All state-changing action gated per D6.
 
 ### D4 — Memory / continuity architecture
 - **A. Anthropic-hosted (Claude Tag native).** *Fast; off-prem; conflicts with local-first.*
@@ -83,6 +83,7 @@ Claude is currently reachable in Slack through the **legacy "Claude in Slack" bo
 - **Risk:** Choosing Claude Tag (B/D4-A) moves PSS context into an Anthropic-hosted sandbox — off-prem, against local-first canon. **Rollback:** revert to legacy bot / Claude app; no PSS memory is exposed until D4 is settled.
 - **Risk:** Connecting write scopes without D6 gates enables silent execution against client systems. **Rollback:** keep all scopes read-only until gates exist.
 - **Risk:** Pricing/plan figures are currently unverifiable (egress block) — do not commit spend on unconfirmed numbers.
+- **Risk (agent-mesh):** In a shared multi-agent channel one bot's post could induce another agent to act (cross-agent prompt injection). **Mitigation:** enforce "awareness only, not authority" — Claude acts only on Beau's direct instruction or a bounded work order, never on a peer bot's message alone.
 
 ---
 
