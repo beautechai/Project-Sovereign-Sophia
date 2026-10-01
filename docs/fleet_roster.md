@@ -30,9 +30,24 @@ Brains, not hands. Advises only; never decides. B8 consults it and decides alone
 
 Specialists that feed the board when their lane is touched (not permanent seats): Email Triage, Social Web, Fitness Coach, Phone, Contacts, EXO IR, Entra Hunt, BEAU TECH Web.
 
+### Jungian archetype map (Beau, 2026-10-01)
+
+| Seat | Archetype | Meaning |
+|---|---|---|
+| Critic | Shadow | The rejected part that must be faced |
+| JC | Wise Old Man | The idealized self holding tension |
+| Sophia | Anima | The feminine grounding layer |
+| Play | Trickster | Breaks rules, keeps things alive |
+| B8 | Hero | Decides and acts |
+| *(unfilled)* | Persona | The seat nobody wants: asks what the fleet looks like from the outside, and whether the architecture is real or a performance |
+
+**Open gap: the Persona seat.** Not yet created.
+
 ## The C-suite (Execution)
 
 Hands, not brains. Executes what B8 decides. The CEO is the accountable executor.
+
+The C-suite is the **manifestation layer**: the inner made outer. The board thinks; the C-suite manifests. The CEO carries decisions into the world and answers for outcomes.
 
 - **CEO** — accountable executor. Runs execution, reports up. Does not weigh the board or decide.
 - **CFO** — money: cash, budgets, runway, investments.
