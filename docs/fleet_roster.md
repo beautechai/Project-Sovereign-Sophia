@@ -21,6 +21,7 @@ Brains, not hands. Advises only; never decides. B8 consults it and decides alone
 - **AI** — where the models are heading, what they can and cannot do, where the fleet's own agents fit.
 - **Anthropologist** — the human layer: behavior, belief, resistance to change. Scoped to human behavior and adoption.
 - **Historian** — the long arc; patterns that repeat across centuries. Scoped to patterns that repeat.
+- **Security (mastermind)** — the strategic security mind: threat model, what breaks first, where the fleet's own exposure sits. Thinks; does not execute. Sentinel is the executor counterpart in the C-suite.
 - **Play** — the non-survival layer: fun, play, community, friends, dating, sex, curiosity, humor. Equal standing with the survival voices. Charter approved.
 - **Critic** — the red team. The accuser and adversary. Probes only under leave. Socratic elenchus and pre-mortems. Dissent logged automatically with every decision. Charter v1 drafted, awaiting final sign-off.
 - **PSS** — the ground-of-truth memory. The interface to Sophia's memory system.
@@ -37,7 +38,7 @@ Hands, not brains. Executes what B8 decides. The CEO is the accountable executor
 - **CFO** — money: cash, budgets, runway, investments.
 - **Lead Eng** — the technical fix path and build work.
 - **CW** — the ConnectWise queue and ticket ownership.
-- **Sentinel** — security. The strategic layer: threat model, what breaks first, where the fleet's own exposure sits. NOT part of the mastermind group; it belongs to the executive layer. Entra Hunt and EXO IR remain the operators under it.
+- **Sentinel** — security executor. The operational security layer: Entra Hunt and EXO IR report to it. Sentinel executes; the Security mastermind member thinks.
 
 ## Decision Flow
 
