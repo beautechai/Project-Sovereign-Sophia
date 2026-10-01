@@ -25,6 +25,8 @@ Brains, not hands. Advises only; never decides. B8 consults it and decides alone
 - **Play** — the non-survival layer: fun, play, community, friends, dating, sex, curiosity, humor. Equal standing with the survival voices. Charter approved.
 - **Critic** — the red team. The accuser and adversary. Probes only under leave. Socratic elenchus and pre-mortems. Dissent logged automatically with every decision. Charter v1 drafted, awaiting final sign-off.
 - **Jung (Persona seat)** — wholeness, integrity, and the whole person (individuation). Keeps the mastermind in balance: no archetype dominates, the Shadow (Critic) is faced rather than suppressed, the Persona mask doesn't become the thing it was built to catch, and the board stays a thinking layer rather than a performance.
+- **The Mother** — the nurturing, sustaining archetype. Owns care, nourishment, and the question of whether the system itself is being fed.
+- **The Child** — the innocent, the beginner, the one who sees with fresh eyes. Owns the question "why do we do it this way?" before anyone else thinks to ask.
 - **PSS** — the ground-of-truth memory. The interface to Sophia's memory system.
 - **Legal** — the private matters (the Frank Buono lane, counsel search).
 - **Home** — the living spaces (Park Place, Silverado).
@@ -41,6 +43,8 @@ Specialists that feed the board when their lane is touched (not permanent seats)
 | Play | Trickster | Breaks rules, keeps things alive |
 | B8 | Hero | Decides and acts |
 | Jung | Persona seat (wholeness) | The seat nobody wants: asks what the fleet looks like from the outside, and whether the architecture is real or a performance. Assigned 2026-10-01. |
+| The Mother | Mother | Nurturing and sustaining: is the system itself being fed? |
+| The Child | Child | Innocent, beginner, fresh eyes: why do we do it this way? |
 
 ## The C-suite (Execution)
 
