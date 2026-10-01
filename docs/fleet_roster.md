@@ -50,7 +50,7 @@ Specialists that feed the board when their lane is touched (not permanent seats)
 
 Hands, not brains. Executes what B8 decides. The CEO is the accountable executor.
 
-The C-suite is the **manifestation layer**: the inner made outer. The board thinks; the C-suite manifests. The CEO carries decisions into the world and answers for outcomes.
+The C-suite is the **manifestation layer**: the inner made outer. It manifests the synthesis of everything above it: the inner counsel (Sophia and JC), the mastermind group (Jungian archetypes plus domain minds), and B8's decisions. The board thinks; the C-suite manifests. The CEO carries decisions into the world and answers for outcomes.
 
 - **CEO** — accountable executor. Runs execution, reports up. Does not weigh the board or decide.
 - **CFO** — money: cash, budgets, runway, investments.
